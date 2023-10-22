@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3d5b9f037a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Modal</title>
+</head>
+<body>
+    <div class="modal-box">
+        <h1>Modal Project</h1>
+        <h2>My Upwork Profile</h2>
+        <button id="modalOpen" class="heartbeat" onclick="openModal()">Click Here</button>
+    </div>
+
+    <div id="modalBody" class="modal-body inactive">
+        <div class="inner-modal-box">
+            <div class="modal-content">
+                <img src="./assests/pic 1.jpg" alt="">
+                <h1>Syed Daniyal Ali</h1>
+                <h2>Freelancer on UpWork</h2>
+                <p>What services can I offer you
+                    <br>
+
+                    - PowerPoint presentation editing & customization
+                    - PowerPoint design
+                    - General typing and Data Entry services
+                    - Data Entry: Any type of directories, sheets and databases in online or offline.
+                    - Microsoft Tools: Word, Excel
+                    - Transcription Editor and Translator
+                    
+                    I will work quickly, efficiently and will always double check my work to avoid unnecessary time-consuming errors.
+                </p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/danial-ali-bb8b0612a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Danialpak" target="_blank"><i class="fa-brands fa-github "></i></a></li>    
+                </ul>
+            </div>
+            <a id="close" href="javascript:avoid(0)" onclick="closeModal()"><i  class="fa-solid fa-circle-xmark fa-beat"></i></a>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
